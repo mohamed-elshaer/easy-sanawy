@@ -64,32 +64,31 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav me-auto p-4 p-lg-0">
+            <div class="navbar-nav me-auto p-4 p-lg-0 px-lg-5">
                 <a href="index.html" class="nav-item nav-link active">الرئيسيه</a>
                 <a href="#martial" class="nav-item nav-link">المواد</a>
                 <a href="#teachers" class="nav-item nav-link">المدرسين</a>
             </div>
         </div>
+        <button type="button" class="navbar-toggler mx-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="./img/logo.png" width="80" alt="" srcset="">
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
     </nav>
     <!-- Navbar End -->
     <!-- Courses Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" style="min-height: 80vh;">
         <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
-                <h1 class="mb-5">Popular Courses</h1>
+            <div class="text-center mb-5">
+                <h2 class="section-title primaryText text-center px-3 py-1">المحاضرات</h2>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
+                    <div class="course-item shadow bg-white">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-1.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
@@ -117,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
+                    <div class="course-item shadow bg-white">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-2.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
@@ -145,7 +144,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
+                    <div class="course-item shadow bg-white">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-3.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
@@ -204,9 +203,19 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/splitting@1.0.6/dist/splitting.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        Splitting();
+
+        // Small helper to make sure the animation stays in sync.
+        requestAnimationFrame(() => {
+            document.body.dataset.play = true;
+        });
+    </script>
 </body>
 
 </html>

@@ -24,7 +24,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/splitting@1.0.6/dist/splitting.css">
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -61,47 +61,148 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav me-auto p-4 p-lg-0">
+            <div class="navbar-nav me-auto p-4 p-lg-0 px-lg-5">
                 <a href="index.html" class="nav-item nav-link active">الرئيسيه</a>
                 <a href="#martial" class="nav-item nav-link">المواد</a>
                 <a href="#teachers" class="nav-item nav-link">المدرسين</a>
             </div>
         </div>
+        <button type="button" class="navbar-toggler mx-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="./img/logo.png" width="80" alt="" srcset="">
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
     </nav>
     <!-- Navbar End -->
-    <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom:90px;">
+    <!-- <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom:90px;">
         <div class="top-0 start-0 w-100 h-100 d-flex align-items-center" style="direction: ltr;">
-            <div class="container py-5">
+            <div class="container-fluid py-5 mx-5 px-4">
                 <div class="row justify-content-start" style="direction: rtl;">
-                    <div class="col-sm-10 col-lg-8">
-                        <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Easysanawy</h5>
-                        <h1 class="py-4 text-white animated slideInDown">ايزي ثانوي منصة تعليم اونلاين الاول في مصر
-                            لطلاب الثانوية العامة</h1>
-                        <a href="https://www.free-css.com/free-css-templates"
+                    <div class="col-sm-10 col-lg-12 text-center">
+                        <div class="container-an" style="direction: ltr;">
+                            <h1 class="title" data-splitting>Easysanawy</h1>
+                            <div class="dot">
+                              <div class="dot-inner">
+                                <svg class="dot-wave background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                  <path d="M799.09 90s11.04 0 0 0c-80.714 0-79.621-90-200-90-120.377 0-118.607 90-200 90-81.391 0-81.215-90-200-90C80.308 0 78.68 89.29-.91 90c-6.946.062 0 0 0 0v510h800V90z" />
+                                </svg>
+                                <svg class="dot-wave foreground" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+                                  <path d="M799.09 90s11.04 0 0 0c-80.714 0-79.621-90-200-90-120.377 0-118.607 90-200 90-81.391 0-81.215-90-200-90C80.308 0 78.68 89.29-.91 90c-6.946.062 0 0 0 0v510h800V90z" />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                            <h1 class="py-5 text-white animated slideInDown">
+                                <span class="text-wrapper">
+                                  <span class="line line1"></span>
+                                  <span class="letters">ايزي ثانوي منصة تعليم اونلاين الاول في مصر
+                                    لطلاب الثانوية العامة</span>
+                                </span>
+                              </h1>
+                        <a href="#"
                             class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a> <a
-                            href="https://www.free-css.com/free-css-templates"
+                            href="#"
                             class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div> -->
+    <!-- Carousel Start -->
+    <div class="container-fluid" dir="ltr">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container-fluid py-5 mx-5 px-4">
+                        <div class="row justify-content-start" style="direction: rtl;">
+                            <div class="col-sm-10 col-lg-12 text-center">
+                                <div class="container-an" style="direction: ltr;">
+                                    <h1 class="title" data-splitting>Easysanawy</h1>
+                                    <div class="dot">
+                                        <div class="dot-inner">
+                                            <svg class="dot-wave background" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 1000 1000">
+                                                <path
+                                                    d="M799.09 90s11.04 0 0 0c-80.714 0-79.621-90-200-90-120.377 0-118.607 90-200 90-81.391 0-81.215-90-200-90C80.308 0 78.68 89.29-.91 90c-6.946.062 0 0 0 0v510h800V90z" />
+                                            </svg>
+                                            <svg class="dot-wave foreground" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 800 800">
+                                                <path
+                                                    d="M799.09 90s11.04 0 0 0c-80.714 0-79.621-90-200-90-120.377 0-118.607 90-200 90-81.391 0-81.215-90-200-90C80.308 0 78.68 89.29-.91 90c-6.946.062 0 0 0 0v510h800V90z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="py-5 text-white animated slideInDown-f">
+                                    <span class="text-wrapper">
+                                        <span class="line line1"></span>
+                                        <span class="letters headingBold">ايزي ثانوي منصة تعليم اونلاين الاول في مصر
+                                            لطلاب الثانوية العامة</span>
+                                    </span>
+                                </h1>
+                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a> <a href="#"
+                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container-fluid py-5 mx-5 px-4">
+                        <div class="row justify-content-start" style="direction: rtl;">
+                            <div class="col-sm-10 col-lg-12 text-center">
+                                <div class="container-an" style="direction: ltr;">
+                                    <h1 class="title" data-splitting>Easysanawy</h1>
+                                    <div class="dot">
+                                        <div class="dot-inner">
+                                            <svg class="dot-wave background" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 1000 1000">
+                                                <path
+                                                    d="M799.09 90s11.04 0 0 0c-80.714 0-79.621-90-200-90-120.377 0-118.607 90-200 90-81.391 0-81.215-90-200-90C80.308 0 78.68 89.29-.91 90c-6.946.062 0 0 0 0v510h800V90z" />
+                                            </svg>
+                                            <svg class="dot-wave foreground" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 800 800">
+                                                <path
+                                                    d="M799.09 90s11.04 0 0 0c-80.714 0-79.621-90-200-90-120.377 0-118.607 90-200 90-81.391 0-81.215-90-200-90C80.308 0 78.68 89.29-.91 90c-6.946.062 0 0 0 0v510h800V90z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="py-5 text-white animated slideInDown-f">
+                                    <span class="text-wrapper">
+                                        <span class="line line1"></span>
+                                        <span class="letters headingBold">ايزي ثانوي منصة تعليم اونلاين الاول في مصر
+                                            لطلاب الثانوية العامة</span>
+                                    </span>
+                                </h1>
+                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a> <a href="#"
+                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Carousel End -->
+
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" id="martial">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h2 class="section-title bg-white primaryText text-center px-4">المواد الدراسية</h2>
+                <h2 class="section-title py-1 primaryText text-center px-4">المواد الدراسية</h2>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
@@ -170,17 +271,17 @@
     <div class="container-xxl py-5" id="teachers">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title bg-white primaryText text-center px-4">المدرسين</h2>
+                <h2 class="section-title primaryText text-center px-3 py-1">المدرسين</h2>
             </div>
             <div class="row g-4">
-                <a href="teacher-info.html" target="_blank" rel="noopener noreferrer">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item bg-light">
-                            <div class="overflow-hidden">
+                    <a href="teacher-info.html" target="_blank">
+                        <div class="team-item shadow bg-white radues">
+                            <div class="overflow-hidden radues">
                                 <img class="img-fluid" src="img/team-1.jpg" alt="">
                             </div>
                             <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <div class="bg-white d-flex justify-content-center pt-2 px-1">
                                     <a class="btn btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-sm-square btn-primary mx-1" href=""><i
@@ -194,15 +295,15 @@
                                 <small>Designation</small>
                             </div>
                         </div>
+                    </a>
                 </div>
-            </a>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item shadow bg-white radues">
+                        <div class="overflow-hidden radues">
                             <img class="img-fluid" src="img/team-2.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <div class="bg-white d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -217,12 +318,12 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
+                    <div class="team-item shadow bg-white radues">
+                        <div class="overflow-hidden radues">
                             <img class="img-fluid" src="img/team-3.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <div class="bg-white d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -237,12 +338,12 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
+                    <div class="team-item shadow bg-white radues">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid radues" src="img/team-4.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <div class="bg-white d-flex justify-content-center pt-2 px-1">
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -253,72 +354,6 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Instructor Name</h5>
                             <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row pt-3 g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                        <div class="bg-light text-center p-4">
-                            <h5 class="mb-3">Instructor Name</h5>
-                            <p class="mb-2">Web Design & Development</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                        <div class="bg-light text-center p-4">
-                            <h5 class="mb-3">Instructor Name</h5>
-                            <p class="mb-2">Web Design & Development</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                        <div class="bg-light text-center p-4">
-                            <h5 class="mb-3">Instructor Name</h5>
-                            <p class="mb-2">Web Design & Development</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                        <div class="bg-light text-center p-4">
-                            <h5 class="mb-3">Instructor Name</h5>
-                            <p class="mb-2">Web Design & Development</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                                <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -369,7 +404,6 @@
             </div>
         </div>
     </div>
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
@@ -384,7 +418,6 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
@@ -396,9 +429,19 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/splitting@1.0.6/dist/splitting.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        Splitting();
+
+        // Small helper to make sure the animation stays in sync.
+        requestAnimationFrame(() => {
+            document.body.dataset.play = true;
+        });
+    </script>
 </body>
 
 </html>
